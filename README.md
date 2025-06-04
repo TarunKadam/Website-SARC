@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# What my project does and necessary details
+This is a Solar-based company,SolarForce's website. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SolarForce builds innovative eco-friendly energy solutions in form of solar and LED products and various projects. This website has Home, About, Services and Contact pages.
 
-## Available Scripts
+The website has Logo, Navbar, a partial covering background image, a remaining coloured background with a Footer at the end. 
 
-In the project directory, you can run:
+I have added a BottomNavBar too making it easier for customer to access different pages conveniently.
 
-### `npm start`
+The Home page has the importance of solar and link to projects and products with a short description. A carousel containing services phtots has also been displayed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The About page has information about the company with the mission enclosed in a revolving animated circle. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Services page has list of our services with button links to our products and projects. The Products and Projects can be accessed by the drop-down menu associated with Services.
 
-### `npm test`
+The Products and Projects page consist of various products and projects respectively with specifications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+At last, the Contacts Page has my contact number, address and a link called "Email Us" clicking on which directs us to email compose box sending email to my gmail id tarunkadam0806@gmail.com.
 
-### `npm run build`
+# Structure of the files and folders
+my-website/
+├── src/
+│   ├── assets/
+│   │   ├── about_bg,jpg
+│   │   ├── contact_bg,jpg
+│   │   ├── home_bg.jpg
+│   │   ├── Product_1.jpg
+│   │   ├── Product_2jpg
+│   │   ├── Product_3.jpg
+│   │   ├── products_bg.jpg
+│   │   ├── Project_1.jpg
+│   │   ├── Project_2.jpg
+│   │   ├── Project_3.jpg
+│   │   ├── Project_4.jpg
+│   │   ├── projects_bg.jpg
+│   │   ├── services_bg.jpg
+│   │   ├── Slider_1.jpg
+│   │   ├── Slider_2.jpg
+│   │   ├── Slider_3.jpg
+│   │   └── Slider_4.jpg 
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Navbar.css
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   ├── BottomNavbar.js
+│   │   ├── Carousel.jsx
+│   │   ├── BottomNavbar.css
+│   │   ├── Carousel.css
+│   │   └── Header.css
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   ├── Services.js
+│   │   ├── Projects.js
+│   │   ├── Products.js
+│   │   ├── Home.css
+│   │   ├── About.css
+│   │   └── Services.css
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+    ├── App.test.js
+    ├── reportWebVitals.js
+    ├── setupTests.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
